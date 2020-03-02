@@ -35,7 +35,7 @@
 --git checkout nome-da-branch-- // entrar em uma branch  
 --git branch -r-- // listar as branch's do repositorio remoto  
 --git branch-- // mostrar as branch's do repositorio local e em qual o usuario esta atualmente  
---git branch -d nome-da-branch // deletar uma branch localmente  
+--git branch -D nome-da-branch // deletar uma branch localmente  
 --git push origin --delete nome-da-branch // deletar uma branch remotamente
 
 #### Atualizar
