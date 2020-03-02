@@ -2,9 +2,15 @@
 
 #### Logar no Github
 
+<<<<<<< HEAD
 __git config --global user.name "nome de usuario"__  
 __git config --global user.email "email"__  
 __git config credential.helper store__ // configurar com a conta de usuario(para nao digitar a cada push)
+=======
+-- git config --global user.name "nome de usuario" --  
+--git config --global user.email "email"  
+--git config credential.helper store-- // configurar com a conta de usuario(para nao digitar a cada push)
+>>>>>>> 545ce52ba065f21b8fffc305b925a7442a6cc320
 
 #### Inicio
 
