@@ -1,47 +1,47 @@
-# RESUMÃO BÁSICO DE GIT    
+# GIT and GITHUB popular commands
 
-### Logar no Github
+### Log and Config account
 
-__git config --global user.name "nome de usuario"__  
+__git config --global user.name "username"__  
 __git config --global user.email "email"__  
-__git config credential.helper store__  // configurar com a conta de usuario(para nao digitar a cada push)
 
-### Inicio
+### Get Start
 
-__git init__  // incicializar um repositorio local  
-__touch__     // criar um arquivo local
-__git clone URL-do-repositorio-do-github__  // clonar um repositorio do github
+__git init__  // get start to a local repo as .git repo
+__touch__     // create a local file
+__git clone URL-do-repositorio-do-github__  // clone remote repo that will host the local repo
 
-### Administrar Mudancas
+### Manage Modification
 
-__git status__        // ver o estado das mudancas feitas  
-__git add .__         // adicionar as mudancas feitas na branch em que o usuario esta  
-__git add nome-de-arquivo__      // adicionar um arquivo em especifico naquela branch  
-__git commit -m "..."__          // comitar alteracoes, deixando uma mensagem de descricao do commit  
-__git push -u origin nome-da-branch__  // dar o primeiro push de uma branch  
+__git status__        // check modifications stage
+__git add .__         // add all local files
+__git add file-name__      // add a especific file
+  __git commit -m "message"__          // commit repo's modification with a message
+__git push -u origin branch-name__     // push to a especific branch (master default)
 __git push__                           // push comum  
-__git merge__                          // unir as branch's
+__git merge__                          // join branch's
 
-### Verificar alteracoes
+### Check Updates
 
-__git show__   // mostrar a ultima alteracao feita  
-__git log__    // mostrar todas as alteracoes feitas. obs: sair do git log com "q"  
-__git show codigo-da-alteracao__   // ver uma alteracao especifica (codigo da alteracao no git log)  
-__git remote -v__                  // checar repositorios remotos
+__git show__   // show the latest updates (press Shift + q to get out)
+__git log__    // show all latest updates
+__git show update code__   // show an especific update (see on git log)
+__git remote -v__          // check remotes' repos
 
-### Branch's
+### Branch
 
-__git branch nome-da-branch__    // criar uma branch  
-__git checkout nome-da-branch__  // entrar em uma branch  
-__git branch -r__                // listar as branch's do repositorio remoto  
-__git branch__           // mostrar as branch's do repositorio local e em qual o usuario esta atualmente  
-__git branch -D nome-da-branch__             // deletar uma branch localmente  
-__git push origin --delete nome-da-branch__  // deletar uma branch remotamente
+__git branch branch-name__    // create a branch  
+__git checkout branch-name__  // set some branch
+__git branch -r__                // list remote repo's branches
+__git branch__           // show all branches
+__git branch -D branch-name__             // delete a local branch
+__git push origin --delete branch-name__  // delete a remote branch
 
-### Atualizar
+### Update 
 
-__git pull__  // atualizar repositorio local a partir do remoto  
+__git remote add origin github-repository-url__ // update remote repo source local's repo
+__git pull__  // update the local's repo
 
-### Modificacoes
+### Go Back to some Commit
 
-__git checkout codigo-da-modificacao__  // voltar uma modificacao especifica (codigo da modi. no git log)
+__git checkout commit-changed-code__  // see on git log
