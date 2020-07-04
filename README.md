@@ -86,3 +86,5 @@ $ git pull
 # take a commit code you want go back on the git log
 $ git checkout commit-code
 ```
+
+Made with ♥ by Ester :wave: [Get in touch!](https://www.linkedin.com/in/ester-albuquerque-3589911a6/)
