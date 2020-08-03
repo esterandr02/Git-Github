@@ -7,11 +7,12 @@
 
 ### 👤️ Account
 ```bash
-# Login
-$ git config --global user.name your-username
-
 # Config
+$ git config --global user.name your-username
 $ git config --global user.email your-email
+
+# save the credentials for this repo
+$ git config --global credential.helper store
 ```
 
 ### 🏁️ Getting Started
